@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: "Inter";
+    background-color: hsl(0, 0%, 8%);
+}
+.container {
+    position: relative;
+    text-align: center;
+    background-color:hsl(0, 0%, 12%);
+    color: #fff;
+    padding-bottom: 2rem;
+    width: 23rem;
+    height: 580px;
+    top: 80px;
+    margin-left: 600px;
+    border-radius: 10px;
+}
+.head img {
+    width: 100px;
+    border-radius: 100px;
+}
+.head {
+    position: relative;
+    top: 40px;
+}
+.button a{
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    margin: 7px;
+    border-radius: 10px;
+    line-height: 40px;
+    position: relative;
+    top: 105px;
+}
+.button a:hover {
+    background-color: hsl(75, 94%, 57%);
+    transform: scale(1.1);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+.text-white {
+    color: var(--color-white); 
+}
+.head h1 {
+    position: relative;
+    top: 20px;
+}
+.head h3 {
+    position: relative;
+    top: 25px;
+    color: hsl(75, 94%, 57%);
+}
+.head p {
+    position: relative;
+    top: 50px;
+}
+.head img {
+    width: 100px;
+    border-radius: 100px;
+}
+.head {
+    position: relative;
+    top: 40px;
+}
+@media screen and (width >= 20rem){
+    .container {
+   width: 370px;
+   margin-left: auto;
+   margin-right: auto;
+}
+}
